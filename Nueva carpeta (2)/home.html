@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Inicio</title>
 </head>
-<body class=>
+<body class="">
 
-  <div id="carouselExampleControlsNoTouching" class="carousel slide bg-info position-relative"  data-bs-touch="false" data-bs-interval="false">
+  <div id="carouselExampleControlsNoTouching" class="carousel slide position-relative pb-5"  data-bs-touch="false" data-bs-interval="false">
     <nav class=" navbar navbar-expand-sm  justify-content-center  position-fixed w-100" aria-label="Ninth navbar example">
       <div class=" container-fluid  " >
 
@@ -21,7 +21,7 @@
           <i class="fas fa-bars m-auto fa-2x text-white"></i>   
         </div>
 
-        <div class=" collapse navbar-collapse  w-100 bg-white" id="navbarsExample07XL">
+        <div class=" collapse navbar-collapse  w-100 fondoNav" id="navbarsExample07XL">
           <ul id="enlaces" class=" navbar-nav flex-sm-row me-auto me-sm-0 mb-2 mt-1 mb-sm-0 w-100 align-items-center justify-content-sm-around  text-uppercase fw-bold">
             <li class="nav-item mt-3  mt-sm-1 ">
               <a class="nav-link " href="#inicio" >Inicio</a>
@@ -43,48 +43,136 @@
       </div>
     </nav>
 
-    <div class="carousel-inner h-100">
-      <div class="carousel-item active row bg-success h-100">  
-        <div class="col-12 col-lg-7  bg-danger  h-100 d-flex justify-content-center align-items-center align-content-center">
-          <div class=" bg-warning  d-flex flex-column text-center align-items-center">
-            <h1>
-              <span class="coloroRosa">LEANDRO</span>
-              <span class="colorCeleste">RAMOS</span>  
-            </h1>
-            <p class="subtitulo">Soy desarrollador web orientado al backend</p>
-              <div class="contornoBotonCv">
-                <button class="">obtener cv</button>
-              </div>
+    <div class="carousel-inner h-100 scrollAbajo pb-5">
+      <div class="carousel-item active h-100">
+ <!-- --------------------------------------------  -->
+        <div class=" h-100 w-100 row">
+          <div class="col-12 col-md-7 col-xxl-6 h-100 d-flex  align-items-center">
+            <div class=" d-flex flex-column text-center text-md-start align-items-center align-items-md-start px-md-3 px-lg-4 px-xl-5 ">
+              <h1>
+                <span class="coloroRosa textGlitch ">LEANDRO 1</span>
+                <span class="colorCeleste ">RAMOS</span>  
+              </h1>
+              <p class="subtitulo mb-4  text-white">Soy desarrollador web orientado al backend</p>
+                <div class="contornoBotonCv"  style="max-width:305px">
+                  <button type="submit" class="shadow-none border-0 w-100 py-2 fw-bold fs-4 text-white fondoColorRosa glitch " data-text="OBTENER CV">OBTENER CV</button>
+                </div>
+            </div>
+          </div>  
+
+          <div class="col-12 col-md-5 col-xxl-6 d-none d-md-flex align-items-center align-items-xxl-center pe-3">
+            <div class=" pt-5 pt-lg-2 pt-xl-0">
+              <img src="img/imagenDelHome.png" class="img-fluid mt-5 mt-lg-2 mt-xl-0" alt="">
+            </div>
           </div>
-        </div>   
-        <div class="col-12 col-lg-5 bg-warning d-none ">
-          <div>
-            <img src="img/imagenDelHome.png" alt="" height="200px" width="200px" >
+        </div>
+  <!-- --------------------------------------------  -->
+      </div>
+
+      <div class="carousel-item  h-100">
+        <!-- --------------------------------------------  -->
+                <div class=" h-100 w-100 row">
+                  <div class=" col-12 col-md-6 col-xxl-6 h-100 d-flex align-items-center justify-content-center p-5">
+                    <div class="contornoCajaFoto " style="max-width: 455px; max-height: 615px;">
+                      <div class="fondoColorRosa w-100 h-100" >
+                        
+                      </div>
+                    </div>
+                  </div>  
+          
+                  <div class="col-12 col-md-6 col-xxl-6 d-md-flex align-items-center align-content-lg-start align-items-xxl-center align-items-xxl-center align-items-lg-start px-2 px-md-0 px-lg-0 pb-5">
+                    <div class="d-flex flex-column align-items-center align-items-md-start text-sm-start h-100 pt-5 pe-xxl-4">
+                      <h1 class="mt-5 px-5 px-md-0 text-center">
+                        <span class="coloroRosa textGlitch ">acerca</span>
+                        <span class="colorCeleste ">De mi</span>  
+                      </h1>
+
+                      <div class=" w-100 mt-5 pt-5" style="min-height: 315px;">
+                        <ul class=" nav nav-pills mb-3 py-1 justify-content-center justify-content-md-start text-white" id="pills-tab" role="tablist">
+                          <li class="nav-item mx-4 ms-md-0" role="presentation ">
+                            <button class="nav-link px-3 py-1 active  text-white fw-bold" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Yo</button>
+                          </li>
+                          <li class="nav-item mx-4" role="presentation">
+                            <button class="nav-link px-3 py-1 text-white fw-bold" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Educacion</button>
+                          </li>
+                        </ul>
+
+                        <div class="tab-content  py-2 " id="pills-tabContent">
+                          <div class=" tab-pane fade show active text-white text-center text-md-start" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            Est dolore fugiat ullamco cupidatat duis Lorem enim Lorem.
+                             Cillum duis nostrud reprehenderit aliquip nostrud ea cupidatat eu exercitation voluptate consequat aute. 
+                            Nulla eu incididunt ut enim amet proident eiusmod quis tempor sunt enim quis aliqua. 
+                            Est dolore fugiat ullamco cupidatat duis Lorem enim Lorem.
+                            Cillum duis nostrud reprehenderit aliquip nostrud ea cupidatat eu exercitation voluptate consequat aute. 
+                        
+                          </div>
+                          <div class="tab-pane fade text-white" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            Est dolore fugiat ullamco cupidatat duis Lorem enim Lorem.
+                            Cillum duis nostrud reprehenderit aliquip nostrud ea cupidatat eu exercitation voluptate consequat aute. 
+                           Nulla eu incididunt ut enim amet proident eiusmod quis tempor sunt enim quis aliqua. 
+                         
+                          </div>
+                        </div>
+                      </div>
+
+                        <div class="contornoBotonCv mt-md-2"  style="max-width:305px">
+                          <button type="submit" class="shadow-none border-0 w-100 py-2 fw-bold fs-4 text-white fondoColorRosa glitch " data-text="OBTENER CV">OBTENER CV</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+        <!-- --------------------------------------------  -->
+      </div>
+
+      <div class="carousel-item h-100">
+ <!-- --------------------------------------------  -->
+        <div class=" h-100 w-100 d-flex flex-column justify-content-center align-items-center pt-5">
+          <h1 class="mt-5 px-5 px-md-0 text-center">
+            <span class="coloroRosa  ">Mis</span>
+            <span class="colorCeleste textGlitch">saberes</span>  
+          </h1>
+          <div class="w-75 h-75 row d-flex ps-4 mt-5">
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2"><img src="img/html.png" class="img-responsive" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2"><img src="img/css.png" class="img-responsive" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2"><img src="img/javascript.png" class="img-responsive" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2"><img src="img/bootstrap.png" class="img-responsive" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2"><img src="img/figma.png" class="img-responsive" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2"><img src="img/spring.png" class="img-responsive" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2"><img src="img/php.png" class="img-responsive" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2"><img src="img/git.png" class="img-responsive" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2"><img src="img/mysql.png" class="img-responsive" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2"><img src="img/java.png" class="img-responsive" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2"><img src="img/css.png" class="img-responsive" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2 mb-5"><img src="img/css.png" class="img-responsive" ></div>
+          </div>
+        </div>
+ <!-- --------------------------------------------  -->
+      </div>
+    </div>
+
+    <div class="w-100 position-absolute cajaBotones">
+      <div class="d-inline d-flex align-items-center botonSlider botonSliderIzquierda" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+        <div class="cuadrado1 d-flex p-0 m-0 align-items-center justify-content-center bordeCeleste" >
+          <div class="cuadrado2 p-0 m-0 " >
+          </div>
+        </div>
+        <span class="ms-3 fontBlanca colorCeleste">ANT</span>
+      </div>
+
+      <div class="d-flex w-50 justify-content-around m-auto" style="max-width: 300px;">
+        <i class="fab fa-linkedin fa-2x text-white-50"></i>
+        <i class="fab fa-whatsapp fa-2x text-white-50"></i>
+        <i class="far fa-envelope-open fa-2x text-white-50"></i>
+      </div>
+
+      <div class="d-inline d-flex align-items-center botonSlider botonSliderDerecha" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+        <span class="me-3 fontBlanca colorCeleste">SIG</span>
+        <div class="cuadrado1 d-flex p-0 m-0 align-items-center justify-content-center bordeCeleste" >
+          <div class="cuadrado2 p-0 m-0 " >
           </div>
         </div>
       </div>
 
-      <div class="carousel-item">
-        hola2
-      </div>
-      <div class="carousel-item">
-        hola3
-      </div>
-    </div>
-    <div class="w-100 bg-primary position-absolute cajaBotones">
-      <button class="bg-success botonSlider botonSliderIzquierda" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <div class="bg-white">
-        <i class="far fa-envelope"></i>
-        <i class="far fa-envelope"></i>
-        <i class="far fa-envelope"></i>
-      </div>
-      <button class="botonSlider botonSliderDerecha" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
   </div>
 
