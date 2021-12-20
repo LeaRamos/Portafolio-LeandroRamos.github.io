@@ -12,6 +12,10 @@
   :root {
     --colorRosa: #E01094;
     --colorCeleste: #1FD0ED;
+    --blend-1: normal;
+    --blend-2: normal;
+    --blend-3: normal;
+    --time-anim: 2s;
   }
 
   .coloroRosa{
@@ -138,8 +142,8 @@ nav{
 }
 
 .cuadrado1:hover{
-  height: 45px;
-  width: 45px;
+  transform:scale(1.2) rotate(45deg);
+  
 }
 
 .cuadrado2{
@@ -154,6 +158,7 @@ nav{
   width: 25px;
   border: 5px solid var(--colorRosa);
   background-color: rgba(255, 255, 255, 0);
+  transform:scale(0.8) ;
 }
 
 .imagenHome{
@@ -183,6 +188,128 @@ nav{
 .cajita{
   display: flex!important;
 }
+
+
+img.agrandar{
+  transition: all ease-in-out 0.4s;
+}
+
+img.agrandar:hover{
+  transform: scale(1.2);
+}
+
+
+.marcoPantalla{
+  background: url(../img/Group\ 41.png)  no-repeat center center;
+  background-size:100% 100%;
+  padding: 1% !important;
+  padding-top: 5%!important;
+  max-height: 400px;
+  max-width: 600px;
+}
+
+
+.banner{
+  position: relative!important;
+  width: 100%!important;
+  min-height: 100%!important;
+}
+
+.banner .imgBx{
+  position: absolute!important;
+  top: 0!important;
+  left: 0!important;
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.banner .imgBx img{
+  position: absolute!important;
+  top: 0!important;
+  left: 0!important;
+  width: 100%!important;
+  height: 100%!important;
+  object-fit: cover;
+  opacity: 0;
+  transition: all 0.5s;
+  background-position: center;
+}
+
+.banner .imgBx img.activado{
+  opacity: 1;
+ 
+}
+
+.controles{
+  position: absolute;
+  top: 50%;
+  right: -20%;
+  transform: translateY(-50%);
+  
+  width: 80px;
+
+}
+
+.controles li{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #E01094;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.controles li:hover{
+  background: chocolate;
+}
+.controles li::before{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-left: 3px solid #111;
+  border-bottom:3px solid #111 ;
+  transform: rotate(45deg);
+}
+
+.controles li:nth-child(2):before{
+  transform: rotate(225deg);
+}
+
+.contentBx{
+  position: absolute;
+  bottom: 0;
+  max-width: 700px;
+  z-index: 3;
+}
+
+.contentBx div{
+  display: none;
+}
+
+.contentBx div.activado{
+  display: block;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .glitch {
