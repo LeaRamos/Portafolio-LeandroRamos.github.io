@@ -299,6 +299,27 @@ nav div.container-fluid div.navbar-toggler i{
   transition: all ease-in-out 0.4s;
 }
 
+.cajaBotones div a:hover i{
+  transition: all ease-in-out 0.4s;
+}
+
+.cajaBotones div a.linkedin:hover i{
+  color: #0A66C2!important;
+  text-shadow: 0px 0px 25px #0A66C2!important;
+  
+}
+
+.cajaBotones div a.whatsapp:hover i{
+  color: #00E676!important;
+  text-shadow: 0px 0px 25px #00E676!important;
+  
+}
+
+.cajaBotones div a.mail:hover i{
+  color: #EA4335!important;
+  text-shadow: 0px 0px 25px #EA4335!important;
+  
+}
 @media (max-height: 800px) {
   .cajaBotones{
     top:90%!important;
@@ -351,9 +372,6 @@ nav div.container-fluid div.navbar-toggler i{
 
 
 
-.imgHome{
-
-}
 
 @media (min-width: 576px) {
   .fondoNav{
