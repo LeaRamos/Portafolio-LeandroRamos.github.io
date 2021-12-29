@@ -417,6 +417,16 @@ nav div.container-fluid div.navbar-toggler i{
   }
 }
 
+@media (max-height: 770px) and (min-width:768px) {
+  .contornoBotonCv2{
+    margin-top:0px!important;
+  }
+
+  .infoPersonal{
+   margin-top: 0px!important;
+  }
+}
+
 .contornoCajaFoto div{
   background:url('../img/foto.jpg') no-repeat center top fixed!important;
 }
