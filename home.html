@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Inicio</title>
+</head>
+<body class="hidden ">
+  <!--<div class="PreloaderCentrado" id="onload">
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+  </div>-->
+
+<audio src="music.mp3" autoplay="autoplay" loop="loop" ></audio>
+
+  <div class="PreloaderCentrado" id="onload">
+  <div class="dl">
+    <div class="dl__container">
+      <div class="dl__corner--top"></div>
+      <div class="dl__corner--bottom"></div>
+    </div>
+    <div class="dl__square"></div>
+  </div>
+</div>
+
+  <div id="carouselExampleControlsNoTouching" class="carousel slide position-relative "  data-bs-touch="false" data-bs-interval="false">
+    <ul class="bg-bubbles ">
+      <li ><span></span></li>
+      <li ></li>
+      <li ></li>
+      <li ></li>
+      <li ></li>
+      <li ></li>
+      <li ></li>
+      <li></li>
+      <li ></li>
+      <li></li>
+    </ul>
+
+
+    <nav id="nav" class=" navbar navbar-expand-sm  justify-content-center  position-fixed  w-100" aria-label="Ninth navbar example">
+      <div class=" container-fluid  " >
+
+        <div class=" navbar-toggler m-auto pt-2 pb-2 mb-2 px-2 " onclick="bordeNav();" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarsExample07XL">
+          <i class="fas fa-bars m-auto fa-2x text-white"></i>   
+        </div>
+
+        <div class=" collapse navbar-collapse  w-100 fondoNav" id="navbarsExample07XL">
+          <ul id="enlaces" class=" navbar-nav flex-sm-row me-auto me-sm-0 mb-2 mt-1 mb-sm-0 w-100 align-items-center justify-content-sm-around  text-uppercase fw-bold">
+            <li class="nav-item mt-3  mt-sm-1 navActivo carousel-fade" id="liIncio" onclick="irAIncio(); elegirIncio();">
+              <hr>
+              <a class="nav-link " href="#inicio" id="liIncio">Inicio</a>
+            </li>
+            <li class="nav-item mt-3 mt-sm-1 " id="liPerfil" onclick="irAPerfil(); elegirPerfil();">
+              <hr>
+              <a class="nav-link " href="#perfil" >Perfil</a>
+            </li>
+            <li class="nav-item mt-3 mt-sm-1" id="liConocimiento" onclick="irAConocimiento(); elegirConocimiento();">
+              <hr>
+              <a class="nav-link  " href="#conocimiento" i>Conocimiento</a>
+            </li>
+            <li class="nav-item mt-3 mt-sm-1" id="liProyecto" onclick="irAProyecto(); elegirProyecto();">
+              <hr>
+              <a class="nav-link " href="#proyecto" >Proyecto</a>
+            </li>
+            <li class="nav-item mt-3 mb-3" id="liFinal" onclick="irAFinal(); elegirFinal();">
+              <hr>
+              <a class="nav-link t" href="#final" >Final</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="carousel-inner h-100 scrollAbajo ">
+
+      <div class="carousel-item active h-100" id="inicio" >
+ <!-- --------------------------------------------  -->
+        <div class=" h-100 w-100 row">
+          <div class="col-12 col-md-7 col-xxl-6 h-100 d-flex  align-items-center">
+            <div class=" d-flex flex-column text-center text-md-start align-items-center align-items-md-start px-md-3 px-lg-4 px-xl-5 ">
+              <h1>
+                <span class="coloroRosa textGlitch ">LEANDRO</span>
+                <span class="colorCeleste ">RAMOS</span>  
+              </h1>
+              <p class="subtitulo mb-4  text-white">Soy desarrollador web orientado al backend</p>
+                <div class="contornoBotonCv"  style="max-width:305px">
+                  <a href="/Leandro Ramos C.V  .pdf" target="_blank" class="shadow-none border-0 w-100 py-2 fw-bold fs-4 text-white text-center fondoColorRosa glitch " data-text="OBTENER CV">OBTENER CV</a>
+                </div>
+            </div>
+          </div>  
+
+          <div class="col-12 col-md-5 col-xxl-6 d-none d-md-flex align-items-center align-items-xxl-center pe-3">
+            <div class=" pt-5 pt-lg-2 pt-xl-0">
+              <img src="img/imgHome.png" class="img-fluid mt-5 mt-lg-2 mt-xl-0 imgHome" alt="">
+            </div>
+          </div>
+        </div>
+  <!-- --------------------------------------------  -->
+      </div>
+
+      <div class="carousel-item  h-100" id="perfil">
+        <!-- --------------------------------------------  -->
+                <div class=" h-100 w-100 row">
+                  <div class=" col-12 col-md-6 col-xxl-6 h-100 d-flex align-items-center justify-content-center p-5 pb-0 pb-sm-5">
+                    <div class="contornoCajaFoto " style="max-width: 400px; max-height: 615px;">
+                      <div class="fondoColorRosa w-100 h-100" >
+                        <img src="img/foto.jpg" class=" h-100 w-100" alt="" srcset="">
+                      </div>
+                    </div>
+                  </div>  
+          
+                  <div class="col-12 col-md-6 col-xxl-6 d-md-flex align-items-center align-content-lg-start align-items-xxl-center align-items-xxl-center align-items-lg-start px-2 px-md-0 px-lg-0 pb-5 ">
+                    <div class="d-flex flex-column align-items-center align-items-md-start text-sm-start h-100 pt-5 pe-xxl-4 mb-5">
+                      <h1 class="mt-5 px-5 px-md-0 text-center">
+                        <span class="coloroRosa textGlitch ">acerca</span>
+                        <span class="colorCeleste ">De mi</span>  
+                      </h1>
+
+                      <div class=" w-100 mt-5 pt-5 infoPersonal" style="min-height: 315px;">
+                        <ul class=" nav nav-pills mb-3 py-1 justify-content-center justify-content-md-start text-white" id="pills-tab" role="tablist">
+                          <li class="nav-item mx-4 ms-md-0" role="presentation ">
+                            <button class="nav-link px-3 py-1 active  text-white fw-bold fs-3" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Yo</button>
+                            <hr>                     
+                          </li>
+                          <li class="nav-item mx-4" role="presentation"> 
+                            <button class="nav-link px-3 py-1 text-white fw-bold fs-3" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Educacion</button>
+                            <hr>
+                          </li>
+                        </ul>
+
+                        <div class="tab-content  py-2 " id="pills-tabContent">
+                          <div class=" tab-pane fade show active text-white text-center text-md-start pe-xxl-5 fs-4 fs-4" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            Soy Leandro Ramos, Vivo en Merlo, 
+                            me describo como una persona con mucha paciencia y siempre de buen humor.
+                            Alguien capaz de adaptarse a cualquier circustancia de trabajo y ser resolutivo, 
+                            buscando ser prolijo en los detalles.        
+                          </div>
+                          <div class="tab-pane fade text-white text-center text-md-start pe-xxl-5 fs-4" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            Estudiante de la carrera de Desarrollo Web en la Universidad de la Matanza,orientado al desarrollo backend en continuo trabajo y aprendizaje 
+                            perfeccionando los conocimiento necesarios para formarme en la mejor version posible como desarrollador.    
+                    
+                          </div>
+                        </div>
+                      </div>
+
+                        <div class="contornoBotonCv contornoBotonCv2 mt-md-2"  style="max-width:305px">
+                          <a href="/Leandro Ramos C.V  .pdf" target="_blank" class="shadow-none border-0 w-100 py-2 fw-bold fs-4 text-white text-center fondoColorRosa glitch " data-text="OBTENER CV">OBTENER CV</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+        <!-- --------------------------------------------  -->
+      </div>
+
+      <div class="carousel-item h-100" id="conocimiento">
+ <!-- --------------------------------------------  -->
+        <div class=" h-100 w-100 d-flex flex-column justify-content-center align-items-center pt-5  ">
+          <h1 class="mt-5 px-5 px-md-0 text-center">
+            <span class="coloroRosa  ">Mis</span>
+            <span class="colorCeleste textGlitch">saberes</span>  
+          </h1>
+          <div class="w-75 h-75 row d-flex ps-4 mt-5 ">
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/html.png" class="img-responsive agrandar imgConocimiento" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/css.png" class="img-responsive agrandar" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/javascript.png" class="img-responsive agrandar" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/bootstrap.png" class="img-responsive agrandar" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/figma.png" class="img-responsive agrandar" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/spring.png" class="img-responsive agrandar" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/php.png" class="img-responsive agrandar" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/git.png" class="img-responsive agrandar" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/mysql.png" class="img-responsive agrandar" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/java.png" class="img-responsive agrandar" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/maven.png" class="img-responsive agrandar" ></div>
+            <div class="col-6 col-sm-4 col-lg-3 col-xl-2  d-flex justify-content-center"><img src="img/mustache.png" class="img-responsive agrandar" ></div>
+          </div>
+        </div>
+ <!-- --------------------------------------------  -->
+      </div>
+
+      <div class="carousel-item h-100 pb-5 mb-5" id="proyecto">
+        <div class=" h-100 w-100 row pt-5 pb-5 ps-3 mb-5 ">
+          <h1 class="mt-5 px-5 px-md-0 text-center col-12">
+            <span class="coloroRosa  ">Mis</span>
+            <span class="colorCeleste textGlitch">Trabajos</span>  
+          </h1> 
+          <div class="col-12  col-xxl-7 marcoPantalla ">
+            <section class="banner">
+              
+              <div class="d-inline d-flex align-items-center botonSlider botonSliderIzquierda  controlesIzquierda">
+                <ul class="cuadrado1 d-flex p-0 m-0 align-items-center justify-content-center bordeCeleste" >
+                  <li class="cuadrado2 p-0 m-0 " onclick="previoSlider();previoSliderText();previoText();">
+                  </li>
+                </ul>
+                <span class="ms-3 fontBlanca colorCeleste">ANT</span>
+              </div>
+
+              <div class="d-inline d-flex align-items-center botonSlider botonSliderIzquierda controlesDerecha">
+                <span class="me-3 fontBlanca colorCeleste">SIG</span>
+                <ul class="cuadrado1 d-flex p-0 m-0 align-items-center justify-content-center bordeCeleste" >
+                  <li class="cuadrado2 p-0 m-0 " onclick="previoSlider();siguienteSliderText();siguienteText();">
+                  </li>
+                </ul>
+              </div>
+
+              
+              <div class="imgBx">
+                <img src="img/1.jpg" class="img-fluid activado">
+                <img src="img/2.jpg" class="img-fluid">
+                <img src="img/3.jpg" class="img-fluid">
+                <img src="img/4.jpg" class="img-fluid">
+
+               
+                <div class=" hoverImg" id="">
+                  <div class=" activado fontBlanca">     
+                     <a href="#" class="bordeCeleste"> 
+                       <span class="coloroRosa">Ver</span>
+                       <span class="colorCeleste">Git</span>  
+                      </a> 
+                  </div>
+
+                  <div class="fontBlanca">     
+                    <a href="#" class="bordeCeleste"> 
+                      <span class="coloroRosa">Ver</span>
+                      <span class="colorCeleste">Git</span>  
+                     </a> 
+                 </div>
+
+                  <div class="fontBlanca">     
+                     <a href="#" class="bordeCeleste"> 
+                       <span class="coloroRosa">Ver</span>
+                       <span class="colorCeleste">Git</span>  
+                      </a> 
+                  </div>
+
+                  <div class="fontBlanca">     
+                    <a href="#" class="bordeCeleste"> 
+                      <span class="coloroRosa">Ver</span>
+                      <span class="colorCeleste">Git</span>  
+                     </a> 
+                 </div>
+
+                </div>
+              </div>
+
+            </section>
+          </div>
+            
+            <div class="col-12  col-xxl-5 contentBx text-white text-center text-xxl-start">
+              <div class="activado">
+                <h2 >titulo 1 </h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                   Voluptas accusantium deserunt in et, molestias culpa, 
+                   eaque a minus quia nemo modi nihil maiores explicabo nulla.
+                   Soluta corrupti dolorem quisquam est.
+                  </p>
+                
+              </div>
+              <div class="">
+                <h2>titulo 2 </h2>
+                <p>texto slider 2</p>
+            
+              </div>
+              <div class="">
+                <h2>titulo 3 </h2>
+                <p>texto slider 3</p>
+               
+              </div>
+              <div class="">
+                <h2>titulo 4 </h2>
+                <p>texto slider 4</p>
+                
+              </div>
+            </div>
+        
+          </div>
+      </div>
+
+      <div class="carousel-item h-100" id="final">
+        <div class="cajaJuego">
+          <canvas id="c"></canvas>
+          <div class="info d-flex flex-column align-items-center">
+            <h1 class="  text-center col-12 ">
+              <span class="coloroRosa  ">Final</span>
+              <span class="colorCeleste textGlitch" >Entretenido</span>  
+            </h1> 
+            <p class="mt-5 text-center"> 
+              Gracias por pasar de visita por mi Web :D <br>
+              Puedes quedarte jugando un rato si quieres, intenta clickear la pantalla y te enteraras.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="w-100 position-absolute cajaBotones">
+      
+      <div class="d-inline d-flex align-items-center botonSlider botonSliderIzquierda" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev" onclick="verPaginaAnterior();">
+        <div class="cuadrado1 d-flex p-0 m-0 align-items-center justify-content-center bordeCeleste" >
+          <div class="cuadrado2 p-0 m-0 " >
+          </div>
+        </div>
+        <span class="ms-3 fontBlanca colorCeleste">ANT</span>
+      </div>
+
+      <div class="d-flex w-50 justify-content-around m-auto" style="max-width: 300px;">
+        <a href="https://www.linkedin.com/in/leandro-ramos-britez/" target="_blank" rel="noopener noreferrer" class="linkedin"><i class="fab fa-linkedin fa-2x text-white-50"></i></a>
+        <a href="https://wa.me/541140918436" target="_blank"  class="whatsapp"><i class="fab fa-whatsapp fa-2x text-white-50"></i></a>
+        
+        <a href="mailto:leandroramosbritez@gmail.com?Subject=mensaje%20desde%20la%20web" class="mail"><i class="far fa-envelope-open fa-2x text-white-50"></i></a>
+      </div>
+
+      <div class="d-inline d-flex align-items-center botonSlider botonSliderDerecha" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next" onclick="verPaginaSiguiente();">
+        <span class="me-3 fontBlanca colorCeleste">SIG</span>
+        <div class="cuadrado1 d-flex p-0 m-0 align-items-center justify-content-center bordeCeleste" >
+          <div class="cuadrado2 p-0 m-0 " >
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+  
+  <script type="text/javascript" src="js/dat.gui.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/animacion.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+  </script>
+  <script src="js/bootstrap.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+  </script>
+  <script src="js/popper.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  
+</body>
+</html>
