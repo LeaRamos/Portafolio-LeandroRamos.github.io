@@ -402,7 +402,7 @@ nav div.container-fluid div.navbar-toggler i{
   .contornoCajaFoto{
     height: 60%;
     width: 100%;
-    padding-bottom: 0px !important;
+    
   }
 }
 
@@ -439,29 +439,71 @@ img.agrandar:hover{
 }
 
 #conocimiento{
+  
   padding-bottom:0px!important ;
   margin-bottom:400px!important ;
 }
 
+.cajaSaberesPrincipal{
+  padding-top:100px!important ;
+  padding-bottom:1150px!important ;
+}
+
 @media (min-width: 576px) {
   #conocimiento{
+    padding-top: 0px !important ;
     padding-bottom:0px!important ;
     margin-bottom:100px!important ;
   }
+
+  .cajaSaberesPrincipal{
+    padding-top:0px!important ;
+    padding-bottom:0px!important ;
+  }
 }
 
-@media (min-width: 992px) {
+
+@media (min-width: 768px) and (max-height:780px){
+  .cajaSaberesPrincipal{
+    padding-top:150px!important ;
+    padding-bottom:800px!important ;
+  }
+}
+
+@media (min-width: 992px) and (max-height:780px){
   #conocimiento{
     padding-bottom:0px!important ;
     margin-bottom:50px!important ;
+  }
+
+  .cajaSaberesPrincipal{
+    padding-bottom:400px!important ;
   }
 }
 
 @media (max-height: 800px) {
   #conocimiento{
-
     margin-bottom:250px!important ;
   }
+}
+
+@media(min-height:781px){
+  .cajaSaberesPrincipal{
+    padding-bottom:0px!important ;
+  }
+
+  #conocimiento{
+    margin-bottom:0px!important ;
+  }
+  
+}
+
+
+
+
+
+.cajaSaberes{
+  
 }
 
 .marcoPantalla{
