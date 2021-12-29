@@ -499,13 +499,6 @@ img.agrandar:hover{
 }
 
 
-
-
-
-.cajaSaberes{
-  
-}
-
 .marcoPantalla{
   width: 96%!important;
   height: 40%!important;
@@ -514,7 +507,7 @@ img.agrandar:hover{
   padding: 1% !important;
   padding-top: 1rem!important;
   max-height: 400px;
-  max-width: 700px;
+  max-width: 600px;
   min-height: 270px;
   margin: 0 auto!important;
   margin-top: 4rem!important;
@@ -553,6 +546,23 @@ img.agrandar:hover{
     right: 2%;
     z-index: 10;
   }
+}
+
+@media (min-width: 992px) {
+  .controlesIzquierda{
+    position: absolute;
+    bottom: -25%!important;
+    left: 2%;
+    z-index: 10;
+  }
+  
+  .controlesDerecha{
+    position: absolute;
+    bottom:-25%!important;
+    right: 2%;
+    z-index: 10;
+  }
+
 }
 
 .banner{
