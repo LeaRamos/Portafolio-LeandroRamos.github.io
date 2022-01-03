@@ -267,7 +267,20 @@ nav div.container-fluid div.navbar-toggler i{
 .subtitulo{
   font-size: 36px;
   margin-top: 40px!important;
+  padding-left: 4px!important;
+  padding-right: 4px!important;
 }
+
+
+@media (min-width: 500px) {
+  .subtitulo{
+    font-size: 36px;
+    margin-top: 40px!important;
+  }
+}
+
+
+
 
 .contornoBotonCv{
   margin-top: 39px!important;
