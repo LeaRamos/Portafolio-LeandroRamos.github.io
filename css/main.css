@@ -1,7 +1,9 @@
 @font-face {
-    font-family:'Blanka';
-    src: url('../webFonts/Blanka.ttf');
+    font-family: 'Blanka';
+    font-display: auto;
+    src: local('Blanka'), url(../webFonts/Blanka.ttf) format('ttf');
   }
+
 
   @font-face {
     font-family:'Roboto';
