@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'Blanka';
+    font-family:'Blanka';
     src: url('/webFonts/Blanka.ttf');
   }
 
   @font-face {
-    font-family: 'Roboto';
+    font-family:'Roboto';
     src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
   
   }
@@ -59,6 +59,14 @@
   padding: 0!important;
   box-sizing: border-box!important;
 }
+
+
+@media only screen and (min-device-width: 320px){
+  h1{
+    font-family: 'Blanka'!important;
+  }
+}
+
 
 
 h1{
